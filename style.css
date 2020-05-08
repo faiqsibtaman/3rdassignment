@@ -1,0 +1,451 @@
+@media only screen and (max-width: 100%){
+    img{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 50%){
+    img{
+        width:30%;
+    }
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f8fa;
+    align-content: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: left;
+    margin: 5px 2px;
+    text-decoration: none;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.9;
+  }
+  
+  .fa-facebook {
+    background: #316dc3;
+    color: white;
+    margin-left: 110px;
+    
+}
+  
+  .fa-twitter {
+    background: #316dc3;
+    color: white;
+    
+}
+  
+  .fa-youtube {
+    background: #316dc3;
+    color: white;
+    
+}
+  
+  .fa-instagram {
+    background: #316dc3;
+    color: white;
+    
+  }
+
+.fa-whatsapp{
+    background-color:#8bc443;
+    color: white;
+    
+    
+}
+
+.header{
+    background-color: #316dc3;
+}
+
+.headtext{
+    color: #f7f8fa;
+    text-align: right;
+    display: inline-block;
+    margin-left: 300px;
+    
+
+}
+
+#btn-primary{
+    background-color: #f7f8fa;
+    color: #8bc443;
+    margin-left: 150px;
+    block-size: 28px;
+    font-size: 12px;
+    border-color: black;
+}
+
+#btn-secondary{
+    background-color: #f7f8fa;
+    color: #8bc443;
+    block-size: 28px;
+    font-size: 12px;
+    border-color: black;
+}
+
+#btn-success{
+    background-color: #f7f8fa;
+    color: #8bc443;
+    block-size: 28px;
+    font-size: 12px;
+    border-color: black;
+}
+
+
+.dropdown{
+    background-color:#f7f8fa;
+    text-align: center;
+    font-size: 12px;
+}
+
+.dropdown-hover{
+    opacity: 0.9;
+}
+
+#saylanilogo{
+    border-radius: 10px;
+    border-color: #f7f8fa;
+    width: auto;
+    block-size: 60px;
+    margin-right: 350px;
+}
+#About-hover{
+    opacity: 0.9;
+}
+
+#About{
+background-color: #f7f8fa;
+color: black;
+border-color: #f7f8fa;
+border-radius: 40px;
+font-size: 13px;
+align-content: center;
+text-align: justify;
+
+}
+
+#home{
+    color:white;
+    background-color: #316dc3;
+    border-radius: 40px;
+    font-size: 13px;
+    margin-left: 310px;
+}
+
+
+.ad-text{
+   background-color: #316dc3;
+   color: white;
+   align-content: center;
+   text-align: center;
+}
+
+.body{
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.int{
+    align-content: center;
+    display: block;
+    text-align: center;
+}
+
+
+
+#h11{
+    color:#8bc443;
+    font-size: 40px;
+    text-align: center;
+    font-family: myFont;
+}
+    
+@font-face {
+    font-family: myFont;
+    src: url(vesperlibre-regular.ttf);
+ }
+
+#h7{
+    color:#316dc3;
+    font-size:40px;
+    text-align: center;
+    font-family: myFont;
+}
+
+#intro{
+    text-align: center;
+    display: block;
+    margin: center;
+    flex-wrap: wrap;
+    background-color:#f7f8fa ;
+}
+.p{
+    color:#8bc443;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    align-content: center;
+}
+
+.card-group{
+    background-color: #316ef1;
+    font-family: myFont;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    size: 30px !important;
+    display: flex;
+}
+
+.card-group h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.card-group textmuted{
+    font-size: 20px;
+    color: white;
+    height: 10%;
+}
+
+.card-group img{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.titleicon img{
+    width: 3%;
+    height: 3%;
+}
+
+.title-icon img{
+    width: 3%;
+    height: 3%;
+
+}
+
+#cit{
+    position: relative;
+    left: 90%;
+}
+#cit2{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 50px;
+    right: 30px;
+}
+#cd{
+    display: flex;
+}
+
+#cd1{
+    display: flex;
+}
+#c11,#c12,#c13,#c21,#c22,#c23{
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 10%;
+    margin: 0% 5% 0% 5%;
+    flex: 10%;
+    box-shadow: gray 2px 3px 3px; 
+    width: 20% !important;
+    height: 50px !important;
+}
+#ct1,#ct4{
+    position: relative;
+    right: 110px !important;
+}
+
+.card-body{
+    font-family: myFont;
+    text-align: center;
+    float: left;
+    font-size: 10%;
+    position: relative;
+    right: 50px !important;
+    margin-top: 1px !important; 
+}
+.abc{
+    text-align: center;
+}
+.abca1{
+    color: #3a73c6;
+}
+.abca2{
+    color: #56871c;
+}
+.abca{
+    font-family: myFont;
+}
+.abcb{
+    margin-bottom: 4%;
+}
+.abcb img{
+    width: 3%;
+    height: 3%;
+}
+
+
+#secondcard{
+    display: flex;
+    box-shadow: gray 6px 6px 6px 6px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 5%;
+    height: 4%
+}
+
+
+.card1,.card2,.card3,.card4{
+    width: 4%;
+    height: 10%;
+    margin: 7% auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20%;
+    position: relative;
+    right: 20px;
+}
+sub{
+    font-size: 15px;
+}
+
+a img{
+    width: 50%;
+    height: 50%;
+}
+
+.mission-title{
+    font-size: 30px;
+    font-family: myFont;
+    color: #316dc3;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1.5cm;
+}
+
+.container-fluid{
+    position: left;
+    color:#316dc3;
+    text-align: center;
+    margin-left: auto;
+    text-transform: uppercase;
+    font-family: myFont;
+    width:auto !important;
+    font-size: 30px;
+    size: 30px;
+    flex: flex;
+    height: auto !important;
+    align-items: center;
+
+}
+
+.row img{
+    width: 30px !important;
+    height: 30px !important;
+}
+#cont{
+    padding-top: 60px; 
+    padding-bottom: 60px;
+}
+
+
+#icq{
+    padding: 20px; 
+    margin-bottom: 15px;
+}
+
+.Img_Glry_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;  
+    margin: 10px 10px 10px 10px; 
+}
+
+.Img_Glry_Pic_1
+{
+    flex: 1;
+    
+}
+
+.Img_glry_Pic_2
+{
+    flex: 1;
+}
+
+.Img_glry_Pic_3
+{
+    flex: 1;
+}
+
+.Img_glry_Pic_4
+{
+    flex: 1;
+}
+
+.Img_glry_Pic_5
+{
+    flex: 1;
+}
+
+.Contact_Us_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; 
+    background-color: #25272e;
+    color: #bbb;
+    margin-top: 100px;
+}
+
+.Contact_Us_1_RN
+{
+    flex: 2;
+    text-align: left;
+}
+
+.Contact_Us_2_RN
+{
+    flex: 1;
+}
+
+.Contact_Us_3_RN
+{
+    flex: 1;
+}
+
+.Address_P
+{
+    text-align: left;
+    padding-left: 45px;
+}
+
+.sociallogo img{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    border-radius: 2px;
+}
